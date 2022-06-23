@@ -1,0 +1,96 @@
+.galerie {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .galerie h1 {
+        font-size: 24px;
+    }
+}
+
+.galerie-banner {
+    background-image: url('/assets/images/centreville-header.jpg');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    position: relative;
+    object-fit: cover;
+    z-index: 0;
+    top: -100px;
+    box-shadow: 0px 9px 5px 1px rgba(0,0,0,0.31);
+
+    @media screen and (max-width: 600px) {
+        top: 0px;
+        height: 50vh;
+    }
+}
+
+.contain-banner {
+    max-width: 50vw;
+    border-radius: 0.2em;
+    margin: 0px auto;
+    justify-content: center;
+    filter: grayscale(70%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $white;background-color: #b5a78077;
+    background-color: #00000067;
+
+    @media screen and (max-width: 600px) {
+        max-width: 100%;
+    }
+}
+
+.container-fluid {
+    margin-bottom: 50px;
+}
+
+#slideshow h2 {
+    color: $primary;
+
+    @media screen and (max-width: 600px) {  
+       font-size: 24px;     
+    }
+}
+
+.item > p {
+    font-size: 20px;
+    padding: 30px 10px;
+
+    @media screen and (max-width: 600px) {  
+      margin-top:10px;  
+    }
+}
+
+.item > img {
+    width: 100% !important;
+    height: 80vh;
+    object-fit: cover;
+
+    @media screen and (max-width: 600px) {  
+        width: 100%;
+        height: 30vh;  
+      }
+}
+
+.item-nav > img {
+    height: 30vh;
+    object-fit: cover;
+
+    @media screen and (max-width: 1200px) {  
+        width: 95%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    @media screen and (max-width: 600px) {  
+        width: 95%;
+        height: 30vh;
+        object-fit: cover;
+    }
+}

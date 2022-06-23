@@ -1,0 +1,220 @@
+.video {
+    box-shadow: 0px 9px 5px 1px rgba(0,0,0,0.31);
+}
+
+#homeNav {
+    background-color: $dark;
+}
+
+#homeHeader {
+    top: -216px;
+
+    @media screen and (max-width: 992px) {
+        top: 0;
+    }
+}
+
+#index {
+    position: relative;
+    top: -180px;
+    z-index: 0;
+
+    @media screen and (max-width: 992px) {
+        top: 28px;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .history {
+        background-color: $white;
+
+        h2 {
+            color: $primary;
+        
+            @media screen and (max-width: 576px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: medium;
+            }
+        }
+
+        h3 {
+            @media screen and (max-width: 576px) {
+                font-size: small;
+            }
+        }
+
+        .button-history {
+            background-color: $primary;
+            text-decoration: none;
+            color: $dark;
+            height: 50px;
+            border-radius: 100px;
+            align-items: center;
+
+            &:hover {
+                background-color: $secondary;
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+
+    .tourism {
+        background-color: $primary;
+       
+        h2 {
+            color: $dark;
+
+            @media screen and (max-width: 576px) {
+                font-size: medium;
+            }
+        }
+
+        .button-tourism {
+            background-color: $white;
+            text-decoration: none;
+            height: 50px;
+            border-radius: 100px;
+            color: $dark;
+
+            &:hover {
+                background-color: $secondary;
+                text-decoration: none;
+                color: $white;
+            }
+        }
+
+        .vertical { 
+            border-left: 2px solid $dark; 
+            height: 75px; 
+            display: inline-block;
+        } 
+    }
+
+    .photos {
+        background-color: $white;
+
+        h2 {
+            color: $primary;
+
+            @media screen and (max-width: 576px) {
+                font-size: medium;
+            }
+        }
+
+        .button-photos {
+            background-color: $secondary;
+            text-decoration: none;
+            height: 50px;
+            border-radius: 100px;
+            color: $white;
+
+            &:hover {
+                background-color: $primary;
+                text-decoration: none;
+                color: $dark;
+            }
+        }
+
+        .masonry-galery {
+            columns: 3 330px;
+            column-gap: .5rem;
+            row-gap: .5rem;
+
+            @media screen and (max-width: 992px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            div {
+                width: 390px;
+                background: none;
+                display: inline-block;
+                text-align: center;
+                font-family: system-ui;
+                font-weight: 900;
+                font-size: 2rem;
+                background-size: cover;
+                transition: .4s;
+
+                img {
+                    object-fit: cover;
+                    height: 100%;
+                    width: 95%;
+                }
+            }
+
+            .item-1 {
+                height: 443px;
+            }
+
+            .item-2 {
+                height: 356px;
+            }
+
+            .item-3 {
+                height: 472px;
+            }
+
+            .item-4 {
+                height: 265px;
+            }
+
+            .item-5 {
+                height: 585px;
+            }
+
+            .item-6 {
+                height: 236px;
+            }
+
+            .photobloc {
+                position: relative;
+            }
+        }
+    }
+
+    .events-carousel {
+        .events-carousel-h2 {
+            color: $primary;
+
+            @media screen and (max-width: 576px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: medium;
+            }
+        }
+
+        .carousel-item {
+            height: 500px !important;
+
+            @media screen and (max-width: 992px) {
+                height: 280px !important;
+            }
+
+            img {
+                min-height: 500px !important;
+
+                @media screen and (max-width: 992px) {
+                    min-height: 280px !important;
+                }
+            }
+
+            .carousel-caption {
+                position: absolute;
+                width: 75%;
+                height: 20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: $white;
+                background-color: #000000b5;
+            }
+        }
+    }
+}

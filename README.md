@@ -1,4 +1,4 @@
-<h1>Orleans Metropole (Project 1, CDA)</h1>
+<h1>Orleans Metropole (Project 1, WCS CDA Java)</h1>
 
 ### Create a website to present the city of "Orléans" (It is a fictional project during CDA)
 
@@ -23,4 +23,4 @@
 
 ## The Links
 
-<a href="https://github.com/RaphaelBS-WCS/CDA-Projet1">Link to the repository of project where we worked during <b>CDA Project 1</b></a>
+<a href="https://github.com/RaphaelBS-WCS/CDA-Projet1">Link to the repository of project where we worked during <b>WCS CDA Project 1</b></a>

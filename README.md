@@ -1,6 +1,6 @@
 <h1>Orleans Metropole (Project 1, WCS CDA Java)</h1>
 
-### Create a website to present the city of "Orléans" (It is a fictional project during CDA)
+### Create a website to present the city of "Orléans" (It is a fictional project during CDA) by using PHP
 
 
 ---

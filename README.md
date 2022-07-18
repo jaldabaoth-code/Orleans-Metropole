@@ -13,11 +13,12 @@
 
 ### Steps
 
-1. Clone the repo from Github
-2. Run `npm install`
-3. Run `gulp`
-4. Launch the PHP server : `php -S localhost:8000`
-5. Go to `localhost:8000` with your favorite browser
+1. Clone the repo from GitHub : `git clone git@github.com:jaldabaoth-code/Orleans-Metropole.git`
+2. Enter the directory : `cd Orleans-Metropole`
+3. Run `npm install`
+4. Run `gulp`
+5. Run the internal PHP webserver with `php -S localhost:8000`
+6. Go to <b>localhost:8000</b> with your favorite browser
 
 ---
 
